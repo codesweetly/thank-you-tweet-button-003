@@ -1,7 +1,8 @@
 {
   "name": "thank-you-tweet-button-003",
   "version": "1.0.0",
-  "description": "",
+  "homepage": "https://github.com/codesweetly/thank-you-tweet-button-003#readme",
+  "description": "Easy-to-use tweet button for saying thank you to @oluwatobiss.",
   "main": "./tweetButton.js",
   "repository": {
     "type": "git",
@@ -15,9 +16,15 @@
     "test": "jest --config jest.config.json",
     "prepare": "husky"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "tweet",
+    "twitter",
+    "button",
+    "thank you",
+    "thanks"
+  ],
+  "author": "Oluwatobi Sofela <contact@codesweetly.com> (https://www.codesweetly.com)",
+  "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
     "@babel/preset-env": "^7.26.9",
