@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>8.0.3 (2025-04-09)</small>
+
+* docs: change 001 to 003 ([f68b270](https://github.com/codesweetly/thank-you-tweet-button-003/commit/f68b270))
+
 ## <small>8.0.2 (2025-04-09)</small>
 
 * fix(tweetbutton): change tweet text to message ([4d762ab](https://github.com/codesweetly/thank-you-tweet-button-003/commit/4d762ab))
