@@ -52,7 +52,5 @@ export function tweetButton(quantity, rating) {
   anchorElement.appendChild(anchorElementContent);
   tweetButtonContainer.appendChild(anchorElement);
 
-  return rating && typeof rating === "number"
-    ? tweetButtonContainer
-    : showError();
+  return typeof rating === "number" ? tweetButtonContainer : showError();
 }
