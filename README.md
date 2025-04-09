@@ -2,7 +2,7 @@
 >
 > This package is a project in the [Creating NPM Package book](https://amzn.to/4lifL3n).
 
-# Thank You Tweet Button 001
+# Thank You Tweet Button 003
 
 An easy-to-use tweet button for saying thank you to @oluwatobiss.
 
@@ -18,30 +18,30 @@ https://codesweetly.com
 
 ## Installation
 
-This section shows how to install the Thank You Tweet Button 001 package.
+This section shows how to install the Thank You Tweet Button 003 package.
 
 ### Using npm
 
 ```
-npm install thank-you-tweet-button-001
+npm install thank-you-tweet-button-003
 ```
 
 ### Using yarn
 
 ```
-yarn add thank-you-tweet-button-001
+yarn add thank-you-tweet-button-003
 ```
 
 ### Using pnpm
 
 ```
-pnpm add thank-you-tweet-button-001
+pnpm add thank-you-tweet-button-003
 ```
 
 ## Usage
 
 ```js
-import { tweetButton } from "thank-you-tweet-button-001";
+import { tweetButton } from "thank-you-tweet-button-003";
 
 document.YourDOMNode.appendChild(tweetButton());
 ```
