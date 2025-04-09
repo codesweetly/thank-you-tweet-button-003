@@ -30,7 +30,7 @@ function showError() {
   return errorContainer;
 }
 
-export function tweetButton(quantity, rating) {
+export function tweetButton(quantity, rating, bestNPMPackage) {
   const tweetButtonContainer = document.createElement("section");
   const anchorElement = document.createElement("a");
   const anchorElementContent = document.createTextNode(
@@ -40,7 +40,7 @@ export function tweetButton(quantity, rating) {
     quantity && quantity > 1 ? quantity : "an"
   }+NPM+${
     quantity && quantity > 1 ? "packages" : "package"
-  }.%0A%0ABook's+Rating:+${rating}-star+rating!+${generateStarIcons(
+  }.%0A%0AMy+Favorite:+${bestNPMPackage}%0A%0ABook's+Rating:+${rating}-star+rating!+${generateStarIcons(
     rating
   )}+%0A%0ACreating%20NPM%20Package:%20React%20JavaScript%20Guide%0A%0Ahttps%3A%2F%2Famzn.to/4lifL3n`;
 
@@ -52,5 +52,7 @@ export function tweetButton(quantity, rating) {
   anchorElement.appendChild(anchorElementContent);
   tweetButtonContainer.appendChild(anchorElement);
 
-  return typeof rating === "number" ? tweetButtonContainer : showError();
+  return typeof rating === "number" && bestNPMPackage
+    ? tweetButtonContainer
+    : showError();
 }
